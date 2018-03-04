@@ -1,0 +1,17 @@
+{
+    "name": "daika7ana/shortenapi",
+    "description": "Laravel ShortenAPI for my own ShortURL webapp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dan-Radu Pana",
+            "email": "danradu.pana@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Daika7ana\\Shortenapi\\": "src/"
+        }
+    }
+}
