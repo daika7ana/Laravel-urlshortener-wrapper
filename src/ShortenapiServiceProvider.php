@@ -23,7 +23,6 @@ class ShortenapiServiceProvider extends ServiceProvider
       $this->publishes([
           __DIR__.'/config/config.php' => config_path('shortenapi.php'),
       ], 'config');
-      AliasLoader::getInstance()->alias('Shortenapi', 'Daika7ana\Shortenapi\Facades\Shortenapi');
   }
   
   public function register() {

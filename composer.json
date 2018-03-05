@@ -13,5 +13,15 @@
         "psr-4": {
             "Daika7ana\\Shortenapi\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Daika7ana\\Shortenapi\\ShortenapiServiceProvider"
+            ],
+            "aliases": {
+                "Shortenapi": "Daika7ana\\Shortenapi\\Facades\\Shortenapi"
+            }
+        }
     }
 }
