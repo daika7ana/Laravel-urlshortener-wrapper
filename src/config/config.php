@@ -2,6 +2,6 @@
 
 return [
 	
-    // ShortenURL entrypoint
+    // ShortenURL entrypoint with trailing slash afterwards
     'api_url'   =>  null 
 ];
