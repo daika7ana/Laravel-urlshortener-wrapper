@@ -4,7 +4,7 @@ namespace Daika7ana\Shortenapi\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
-class Shortenapi extends Facade
+class ShortenapiFacade extends Facade
 {
     protected static function getFacadeAccessor()
     {

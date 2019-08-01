@@ -7,7 +7,7 @@ Composer package
 
 ## Installation
 
- - composer require daika7ana/shortenapi
+ - `composer require daika7ana/shortenapi`
  - php artisan vendor:publish the following Provider:
  
    `Daika7ana\Shortenapi\ShortenapiServiceProvider`

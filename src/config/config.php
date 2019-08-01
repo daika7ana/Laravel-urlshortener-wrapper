@@ -1,7 +1,5 @@
 <?php
 
 return [
-	
-    // ShortenURL entrypoint with trailing slash afterwards
-    'api_url'   =>  null 
+    'api_url'   =>  null
 ];

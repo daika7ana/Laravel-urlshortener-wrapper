@@ -3,7 +3,6 @@
 namespace Daika7ana\Shortenapi;
 
 use Illuminate\Support\ServiceProvider;
-use Illuminate\Foundation\AliasLoader;
 
 class ShortenapiServiceProvider extends ServiceProvider 
 {   
@@ -12,20 +11,22 @@ class ShortenapiServiceProvider extends ServiceProvider
    *
    * @var bool
    */
-  protected $defer = false;
+  protected $defer = true;
 
   /**
    * Register the service provider.
    *
    * @return void
    */
-  public function boot() {
+  public function boot() 
+  {
       $this->publishes([
           __DIR__.'/config/config.php' => config_path('shortenapi.php'),
       ], 'config');
   }
   
-  public function register() {
-      $this->app->singleton(Shortenapi::class);
+  public function register()
+   {
+      $this->app->make(Shortenapi::class);
   }
 }

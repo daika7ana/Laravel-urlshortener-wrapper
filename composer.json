@@ -20,7 +20,7 @@
                 "Daika7ana\\Shortenapi\\ShortenapiServiceProvider"
             ],
             "aliases": {
-                "Shortenapi": "Daika7ana\\Shortenapi\\Facades\\Shortenapi"
+                "Shortenapi": "Daika7ana\\Shortenapi\\Facades\\ShortenapiFacade"
             }
         }
     }
